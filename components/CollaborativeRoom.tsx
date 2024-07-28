@@ -4,6 +4,7 @@ import { ClientSideSuspense, RoomProvider } from "@liveblocks/react/suspense";
 import Header from "@/components/Header";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import React from "react";
+import { Editor } from "@/components/editor/Editor";
 
 const CollaborativeRoom = () => {
   return (
@@ -21,6 +22,7 @@ const CollaborativeRoom = () => {
               <UserButton />
             </SignedIn>
           </Header>
+          <Editor />
         </div>
       </ClientSideSuspense>
     </RoomProvider>
