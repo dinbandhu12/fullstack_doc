@@ -123,6 +123,7 @@ import {
             className="floating-toolbar-btn"
           >
             <Image
+              // src="/assets/icons/comment.svg"
               src="/assets/icons/comment.svg"
               alt="comment"
               width={24}
