@@ -21,9 +21,8 @@ const Header = ( { children, className } : HeaderProps ) => {
             height={32}
             className='mr-2 md:hidden'
           />
-
-
         </Link>
+        
         { children }
 
     </div>
